@@ -83,6 +83,7 @@
         <file file_name="../cryptoauthlib/lib/hal/hal_timer_start.c" />
         <file file_name="../cryptoauthlib/lib/hal/atca_hal.c" />
         <file file_name="../cryptoauthlib/lib/hal/hal_i2c_bitbang.c" />
+        <file file_name="../cryptoauthlib/lib/hal/i2c_bitbang_samd21.c" />
       </folder>
       <folder Name="basic">
         <file file_name="../cryptoauthlib/lib/basic/atca_basic.c" />

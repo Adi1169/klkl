@@ -29,10 +29,10 @@
 #define I2C_BITBANG_SAMD21_H_
 
 #include "atca_status.h"
-#include <delay.h>
+#include "nrf_delay.h"
 
 
-#define MAX_I2C_BUSES   18       //The MAX_I2C_BUSES is the number of free pins in samd21 xplained pro
+#define MAX_I2C_BUSES   1       //The MAX_I2C_BUSES is the number of free pins in samd21 xplained pro
 
 
 typedef struct
@@ -43,47 +43,34 @@ typedef struct
 
 extern I2CBuses i2c_buses_default;
 
-extern uint8_t pin_sda;
-extern uint8_t pin_scl;
+extern uint32_t pin_sda;
+extern uint32_t pin_scl;
+#   define I2C_ENABLE()         {  nrf_gpio_cfg_output(pin_sda); \
+                                   nrf_gpio_cfg_output(pin_scl); }
 
-#   define I2C_ENABLE()         {  struct port_config pin_conf; \
-                                   port_get_config_defaults(&pin_conf); \
-                                   pin_conf.direction  = PORT_PIN_DIR_OUTPUT_WTH_READBACK; \
-                                   port_pin_set_config(pin_sda, &pin_conf); \
-                                   pin_conf.direction  = PORT_PIN_DIR_OUTPUT; \
-                                   port_pin_set_config(pin_scl, &pin_conf); }
-#   define I2C_DISABLE()         {  struct port_config pin_conf; \
-                                    port_get_config_defaults(&pin_conf); \
-                                    pin_conf.direction  = PORT_PIN_DIR_INPUT; \
-                                    pin_conf.input_pull = PORT_PIN_PULL_UP; \
-                                    port_pin_set_config(pin_sda, &pin_conf); \
-                                    port_pin_set_config(pin_scl, &pin_conf); }
-#   define I2C_CLOCK_LOW()       port_pin_set_output_level(pin_scl, false)
-#   define I2C_CLOCK_HIGH()      port_pin_set_output_level(pin_scl, true)
-#   define I2C_DATA_LOW()        port_pin_set_output_level(pin_sda, false)
-#   define I2C_DATA_HIGH()       port_pin_set_output_level(pin_sda, true)
-#   define I2C_DATA_IN()         port_pin_get_input_level(pin_sda)
-#   define I2C_SET_OUTPUT()      {  struct port_config pin_conf; \
-                                    port_get_config_defaults(&pin_conf); \
-                                    pin_conf.direction  = PORT_PIN_DIR_OUTPUT_WTH_READBACK; \
-                                    port_pin_set_config(pin_sda, &pin_conf); }
+#   define I2C_DISABLE()         { nrf_gpio_cfg_input(pin_sda, NRF_GPIO_PIN_PULLUP); \
+                                   nrf_gpio_cfg_input(pin_scl, NRF_GPIO_PIN_PULLUP); }
+
+#   define I2C_CLOCK_LOW()       nrf_gpio_pin_write(pin_scl, false)
+#   define I2C_CLOCK_HIGH()      nrf_gpio_pin_write(pin_scl, true)
+#   define I2C_DATA_LOW()        nrf_gpio_pin_write(pin_sda, false)
+#   define I2C_DATA_HIGH()       nrf_gpio_pin_write(pin_sda, true)
+#   define I2C_DATA_IN()         nrf_gpio_pin_read(pin_sda)
+#   define I2C_SET_OUTPUT()      { nrf_gpio_cfg_output(pin_sda); }
 #   define I2C_SET_OUTPUT_HIGH() { I2C_SET_OUTPUT(); I2C_DATA_HIGH(); }
 #   define I2C_SET_OUTPUT_LOW()  { I2C_SET_OUTPUT(); I2C_DATA_LOW(); }
-#   define I2C_SET_INPUT()       {  struct port_config pin_conf; \
-                                    port_get_config_defaults(&pin_conf); \
-                                    pin_conf.direction  = PORT_PIN_DIR_INPUT; \
-                                    port_pin_set_config(pin_sda, &pin_conf); }
-#   define DISABLE_INTERRUPT()   cpu_irq_disable()
-#   define ENABLE_INTERRUPT()    cpu_irq_enable()
+#   define I2C_SET_INPUT()       { nrf_gpio_cfg_input(pin_sda, NRF_GPIO_PIN_PULLUP); }
+#   define DISABLE_INTERRUPT()   __disable_irq()
+#   define ENABLE_INTERRUPT()    __enable_irq()
 
 
-#define I2C_CLOCK_DELAY_WRITE_LOW()  delay_us(1)
-#define I2C_CLOCK_DELAY_WRITE_HIGH() delay_us(1)
-#define I2C_CLOCK_DELAY_READ_LOW()   delay_us(1)
-#define I2C_CLOCK_DELAY_READ_HIGH()  delay_us(1)
-#define I2C_CLOCK_DELAY_SEND_ACK()   delay_us(1)
+#define I2C_CLOCK_DELAY_WRITE_LOW()  nrf_delay_us(1)
+#define I2C_CLOCK_DELAY_WRITE_HIGH() nrf_delay_us(1)
+#define I2C_CLOCK_DELAY_READ_LOW()   nrf_delay_us(1)
+#define I2C_CLOCK_DELAY_READ_HIGH()  nrf_delay_us(1)
+#define I2C_CLOCK_DELAY_SEND_ACK()   nrf_delay_us(1)
 //! This delay is inserted to make the Start and Stop hold time at least 250 ns.
-#define I2C_HOLD_DELAY()    delay_us(1)
+#define I2C_HOLD_DELAY()    nrf_delay_us(1)
 
 
 
@@ -99,7 +86,7 @@ extern uint8_t pin_scl;
  * \param[in] sda  definition of GPIO pin to be used as data pin
  * \param[in] scl  definition of GPIO pin to be used as clock pin
  */
-void i2c_set_pin(uint8_t sda, uint8_t scl);
+void i2c_set_pin(uint32_t sda, uint32_t scl);
 
 
 /**

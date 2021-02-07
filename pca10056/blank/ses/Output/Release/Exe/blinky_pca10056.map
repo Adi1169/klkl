@@ -2096,11 +2096,43 @@ Discarded input sections
  .group         0x0000000000000000        0xc Output/Release/Obj/blinky_pca10056/hal_i2c_bitbang.o
  .group         0x0000000000000000        0xc Output/Release/Obj/blinky_pca10056/hal_i2c_bitbang.o
  .group         0x0000000000000000        0xc Output/Release/Obj/blinky_pca10056/hal_i2c_bitbang.o
+ .group         0x0000000000000000        0xc Output/Release/Obj/blinky_pca10056/hal_i2c_bitbang.o
+ .group         0x0000000000000000        0xc Output/Release/Obj/blinky_pca10056/hal_i2c_bitbang.o
+ .group         0x0000000000000000        0xc Output/Release/Obj/blinky_pca10056/hal_i2c_bitbang.o
+ .group         0x0000000000000000        0xc Output/Release/Obj/blinky_pca10056/hal_i2c_bitbang.o
+ .group         0x0000000000000000        0xc Output/Release/Obj/blinky_pca10056/hal_i2c_bitbang.o
+ .group         0x0000000000000000        0xc Output/Release/Obj/blinky_pca10056/hal_i2c_bitbang.o
+ .group         0x0000000000000000        0xc Output/Release/Obj/blinky_pca10056/hal_i2c_bitbang.o
+ .group         0x0000000000000000        0xc Output/Release/Obj/blinky_pca10056/hal_i2c_bitbang.o
+ .group         0x0000000000000000        0xc Output/Release/Obj/blinky_pca10056/hal_i2c_bitbang.o
+ .group         0x0000000000000000        0xc Output/Release/Obj/blinky_pca10056/hal_i2c_bitbang.o
+ .group         0x0000000000000000        0xc Output/Release/Obj/blinky_pca10056/hal_i2c_bitbang.o
+ .group         0x0000000000000000        0xc Output/Release/Obj/blinky_pca10056/hal_i2c_bitbang.o
+ .group         0x0000000000000000        0xc Output/Release/Obj/blinky_pca10056/hal_i2c_bitbang.o
+ .group         0x0000000000000000        0xc Output/Release/Obj/blinky_pca10056/hal_i2c_bitbang.o
+ .group         0x0000000000000000        0xc Output/Release/Obj/blinky_pca10056/hal_i2c_bitbang.o
+ .group         0x0000000000000000        0xc Output/Release/Obj/blinky_pca10056/hal_i2c_bitbang.o
+ .group         0x0000000000000000        0xc Output/Release/Obj/blinky_pca10056/hal_i2c_bitbang.o
+ .group         0x0000000000000000        0xc Output/Release/Obj/blinky_pca10056/hal_i2c_bitbang.o
+ .group         0x0000000000000000        0xc Output/Release/Obj/blinky_pca10056/hal_i2c_bitbang.o
+ .group         0x0000000000000000        0xc Output/Release/Obj/blinky_pca10056/hal_i2c_bitbang.o
+ .group         0x0000000000000000        0xc Output/Release/Obj/blinky_pca10056/hal_i2c_bitbang.o
+ .group         0x0000000000000000        0xc Output/Release/Obj/blinky_pca10056/hal_i2c_bitbang.o
+ .group         0x0000000000000000        0xc Output/Release/Obj/blinky_pca10056/hal_i2c_bitbang.o
+ .group         0x0000000000000000        0xc Output/Release/Obj/blinky_pca10056/hal_i2c_bitbang.o
+ .group         0x0000000000000000        0xc Output/Release/Obj/blinky_pca10056/hal_i2c_bitbang.o
+ .group         0x0000000000000000        0xc Output/Release/Obj/blinky_pca10056/hal_i2c_bitbang.o
+ .group         0x0000000000000000        0xc Output/Release/Obj/blinky_pca10056/hal_i2c_bitbang.o
+ .group         0x0000000000000000        0xc Output/Release/Obj/blinky_pca10056/hal_i2c_bitbang.o
+ .group         0x0000000000000000        0xc Output/Release/Obj/blinky_pca10056/hal_i2c_bitbang.o
+ .group         0x0000000000000000        0xc Output/Release/Obj/blinky_pca10056/hal_i2c_bitbang.o
+ .group         0x0000000000000000        0xc Output/Release/Obj/blinky_pca10056/hal_i2c_bitbang.o
+ .group         0x0000000000000000        0xc Output/Release/Obj/blinky_pca10056/hal_i2c_bitbang.o
  .text          0x0000000000000000        0x0 Output/Release/Obj/blinky_pca10056/hal_i2c_bitbang.o
  .data          0x0000000000000000        0x0 Output/Release/Obj/blinky_pca10056/hal_i2c_bitbang.o
  .bss           0x0000000000000000        0x0 Output/Release/Obj/blinky_pca10056/hal_i2c_bitbang.o
  .text.hal_i2c_send_slave_address
-                0x0000000000000000       0x24 Output/Release/Obj/blinky_pca10056/hal_i2c_bitbang.o
+                0x0000000000000000       0x26 Output/Release/Obj/blinky_pca10056/hal_i2c_bitbang.o
  .text.hal_i2c_discover_buses
                 0x0000000000000000        0xa Output/Release/Obj/blinky_pca10056/hal_i2c_bitbang.o
  .text.hal_i2c_discover_devices
@@ -2110,7 +2142,7 @@ Discarded input sections
  .text.hal_i2c_post_init
                 0x0000000000000000        0x4 Output/Release/Obj/blinky_pca10056/hal_i2c_bitbang.o
  .text.hal_i2c_send
-                0x0000000000000000       0x44 Output/Release/Obj/blinky_pca10056/hal_i2c_bitbang.o
+                0x0000000000000000       0x48 Output/Release/Obj/blinky_pca10056/hal_i2c_bitbang.o
  .text.hal_i2c_receive
                 0x0000000000000000       0x8c Output/Release/Obj/blinky_pca10056/hal_i2c_bitbang.o
  .text.hal_i2c_wake
@@ -2124,18 +2156,18 @@ Discarded input sections
  .rodata        0x0000000000000000       0x1c Output/Release/Obj/blinky_pca10056/hal_i2c_bitbang.o
  .bss.i2c_hal_data
                 0x0000000000000000       0x10 Output/Release/Obj/blinky_pca10056/hal_i2c_bitbang.o
- .debug_frame   0x0000000000000000      0x180 Output/Release/Obj/blinky_pca10056/hal_i2c_bitbang.o
- .debug_info    0x0000000000000000     0x147f Output/Release/Obj/blinky_pca10056/hal_i2c_bitbang.o
- .debug_abbrev  0x0000000000000000      0x2c5 Output/Release/Obj/blinky_pca10056/hal_i2c_bitbang.o
- .debug_loc     0x0000000000000000      0x7cc Output/Release/Obj/blinky_pca10056/hal_i2c_bitbang.o
+ .debug_frame   0x0000000000000000      0x188 Output/Release/Obj/blinky_pca10056/hal_i2c_bitbang.o
+ .debug_info    0x0000000000000000     0x1276 Output/Release/Obj/blinky_pca10056/hal_i2c_bitbang.o
+ .debug_abbrev  0x0000000000000000      0x266 Output/Release/Obj/blinky_pca10056/hal_i2c_bitbang.o
+ .debug_loc     0x0000000000000000      0x7cd Output/Release/Obj/blinky_pca10056/hal_i2c_bitbang.o
  .debug_pubnames
-                0x0000000000000000      0x6d6 Output/Release/Obj/blinky_pca10056/hal_i2c_bitbang.o
+                0x0000000000000000      0x535 Output/Release/Obj/blinky_pca10056/hal_i2c_bitbang.o
  .debug_pubtypes
                 0x0000000000000000      0x239 Output/Release/Obj/blinky_pca10056/hal_i2c_bitbang.o
  .debug_aranges
                 0x0000000000000000       0x70 Output/Release/Obj/blinky_pca10056/hal_i2c_bitbang.o
- .debug_ranges  0x0000000000000000       0xa8 Output/Release/Obj/blinky_pca10056/hal_i2c_bitbang.o
- .debug_macro   0x0000000000000000       0xd5 Output/Release/Obj/blinky_pca10056/hal_i2c_bitbang.o
+ .debug_ranges  0x0000000000000000       0x60 Output/Release/Obj/blinky_pca10056/hal_i2c_bitbang.o
+ .debug_macro   0x0000000000000000      0x2a8 Output/Release/Obj/blinky_pca10056/hal_i2c_bitbang.o
  .debug_macro   0x0000000000000000      0xac6 Output/Release/Obj/blinky_pca10056/hal_i2c_bitbang.o
  .debug_macro   0x0000000000000000       0x89 Output/Release/Obj/blinky_pca10056/hal_i2c_bitbang.o
  .debug_macro   0x0000000000000000       0x10 Output/Release/Obj/blinky_pca10056/hal_i2c_bitbang.o
@@ -2145,11 +2177,187 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x34 Output/Release/Obj/blinky_pca10056/hal_i2c_bitbang.o
  .debug_macro   0x0000000000000000       0x16 Output/Release/Obj/blinky_pca10056/hal_i2c_bitbang.o
  .debug_macro   0x0000000000000000      0xc13 Output/Release/Obj/blinky_pca10056/hal_i2c_bitbang.o
- .debug_line    0x0000000000000000      0x790 Output/Release/Obj/blinky_pca10056/hal_i2c_bitbang.o
- .debug_str     0x0000000000000000     0x7d65 Output/Release/Obj/blinky_pca10056/hal_i2c_bitbang.o
+ .debug_macro   0x0000000000000000      0x6ac Output/Release/Obj/blinky_pca10056/hal_i2c_bitbang.o
+ .debug_macro   0x0000000000000000       0x22 Output/Release/Obj/blinky_pca10056/hal_i2c_bitbang.o
+ .debug_macro   0x0000000000000000       0x3b Output/Release/Obj/blinky_pca10056/hal_i2c_bitbang.o
+ .debug_macro   0x0000000000000000       0x1c Output/Release/Obj/blinky_pca10056/hal_i2c_bitbang.o
+ .debug_macro   0x0000000000000000       0x22 Output/Release/Obj/blinky_pca10056/hal_i2c_bitbang.o
+ .debug_macro   0x0000000000000000       0xfb Output/Release/Obj/blinky_pca10056/hal_i2c_bitbang.o
+ .debug_macro   0x0000000000000000     0x1011 Output/Release/Obj/blinky_pca10056/hal_i2c_bitbang.o
+ .debug_macro   0x0000000000000000      0x11f Output/Release/Obj/blinky_pca10056/hal_i2c_bitbang.o
+ .debug_macro   0x0000000000000000      0x402 Output/Release/Obj/blinky_pca10056/hal_i2c_bitbang.o
+ .debug_macro   0x0000000000000000    0x10cfd Output/Release/Obj/blinky_pca10056/hal_i2c_bitbang.o
+ .debug_macro   0x0000000000000000      0xa65 Output/Release/Obj/blinky_pca10056/hal_i2c_bitbang.o
+ .debug_macro   0x0000000000000000       0x96 Output/Release/Obj/blinky_pca10056/hal_i2c_bitbang.o
+ .debug_macro   0x0000000000000000       0x40 Output/Release/Obj/blinky_pca10056/hal_i2c_bitbang.o
+ .debug_macro   0x0000000000000000      0x462 Output/Release/Obj/blinky_pca10056/hal_i2c_bitbang.o
+ .debug_macro   0x0000000000000000       0x59 Output/Release/Obj/blinky_pca10056/hal_i2c_bitbang.o
+ .debug_macro   0x0000000000000000       0x1f Output/Release/Obj/blinky_pca10056/hal_i2c_bitbang.o
+ .debug_macro   0x0000000000000000      0x154 Output/Release/Obj/blinky_pca10056/hal_i2c_bitbang.o
+ .debug_macro   0x0000000000000000       0x16 Output/Release/Obj/blinky_pca10056/hal_i2c_bitbang.o
+ .debug_macro   0x0000000000000000      0x16d Output/Release/Obj/blinky_pca10056/hal_i2c_bitbang.o
+ .debug_macro   0x0000000000000000      0x7ca Output/Release/Obj/blinky_pca10056/hal_i2c_bitbang.o
+ .debug_macro   0x0000000000000000       0x3f Output/Release/Obj/blinky_pca10056/hal_i2c_bitbang.o
+ .debug_macro   0x0000000000000000       0x8e Output/Release/Obj/blinky_pca10056/hal_i2c_bitbang.o
+ .debug_macro   0x0000000000000000       0xad Output/Release/Obj/blinky_pca10056/hal_i2c_bitbang.o
+ .debug_macro   0x0000000000000000       0x49 Output/Release/Obj/blinky_pca10056/hal_i2c_bitbang.o
+ .debug_macro   0x0000000000000000       0x8c Output/Release/Obj/blinky_pca10056/hal_i2c_bitbang.o
+ .debug_macro   0x0000000000000000       0x19 Output/Release/Obj/blinky_pca10056/hal_i2c_bitbang.o
+ .debug_macro   0x0000000000000000       0x1d Output/Release/Obj/blinky_pca10056/hal_i2c_bitbang.o
+ .debug_macro   0x0000000000000000       0x35 Output/Release/Obj/blinky_pca10056/hal_i2c_bitbang.o
+ .debug_macro   0x0000000000000000       0x7b Output/Release/Obj/blinky_pca10056/hal_i2c_bitbang.o
+ .debug_macro   0x0000000000000000       0x64 Output/Release/Obj/blinky_pca10056/hal_i2c_bitbang.o
+ .debug_macro   0x0000000000000000       0x20 Output/Release/Obj/blinky_pca10056/hal_i2c_bitbang.o
+ .debug_macro   0x0000000000000000       0x82 Output/Release/Obj/blinky_pca10056/hal_i2c_bitbang.o
+ .debug_line    0x0000000000000000      0xbaf Output/Release/Obj/blinky_pca10056/hal_i2c_bitbang.o
+ .debug_str     0x0000000000000000    0x86d34 Output/Release/Obj/blinky_pca10056/hal_i2c_bitbang.o
  .comment       0x0000000000000000       0x26 Output/Release/Obj/blinky_pca10056/hal_i2c_bitbang.o
  .ARM.attributes
                 0x0000000000000000       0x39 Output/Release/Obj/blinky_pca10056/hal_i2c_bitbang.o
+ .group         0x0000000000000000        0xc Output/Release/Obj/blinky_pca10056/i2c_bitbang_samd21.o
+ .group         0x0000000000000000        0xc Output/Release/Obj/blinky_pca10056/i2c_bitbang_samd21.o
+ .group         0x0000000000000000        0xc Output/Release/Obj/blinky_pca10056/i2c_bitbang_samd21.o
+ .group         0x0000000000000000        0xc Output/Release/Obj/blinky_pca10056/i2c_bitbang_samd21.o
+ .group         0x0000000000000000        0xc Output/Release/Obj/blinky_pca10056/i2c_bitbang_samd21.o
+ .group         0x0000000000000000        0xc Output/Release/Obj/blinky_pca10056/i2c_bitbang_samd21.o
+ .group         0x0000000000000000        0xc Output/Release/Obj/blinky_pca10056/i2c_bitbang_samd21.o
+ .group         0x0000000000000000        0xc Output/Release/Obj/blinky_pca10056/i2c_bitbang_samd21.o
+ .group         0x0000000000000000        0xc Output/Release/Obj/blinky_pca10056/i2c_bitbang_samd21.o
+ .group         0x0000000000000000        0xc Output/Release/Obj/blinky_pca10056/i2c_bitbang_samd21.o
+ .group         0x0000000000000000        0xc Output/Release/Obj/blinky_pca10056/i2c_bitbang_samd21.o
+ .group         0x0000000000000000        0xc Output/Release/Obj/blinky_pca10056/i2c_bitbang_samd21.o
+ .group         0x0000000000000000        0xc Output/Release/Obj/blinky_pca10056/i2c_bitbang_samd21.o
+ .group         0x0000000000000000        0xc Output/Release/Obj/blinky_pca10056/i2c_bitbang_samd21.o
+ .group         0x0000000000000000        0xc Output/Release/Obj/blinky_pca10056/i2c_bitbang_samd21.o
+ .group         0x0000000000000000        0xc Output/Release/Obj/blinky_pca10056/i2c_bitbang_samd21.o
+ .group         0x0000000000000000        0xc Output/Release/Obj/blinky_pca10056/i2c_bitbang_samd21.o
+ .group         0x0000000000000000        0xc Output/Release/Obj/blinky_pca10056/i2c_bitbang_samd21.o
+ .group         0x0000000000000000        0xc Output/Release/Obj/blinky_pca10056/i2c_bitbang_samd21.o
+ .group         0x0000000000000000        0xc Output/Release/Obj/blinky_pca10056/i2c_bitbang_samd21.o
+ .group         0x0000000000000000        0xc Output/Release/Obj/blinky_pca10056/i2c_bitbang_samd21.o
+ .group         0x0000000000000000        0xc Output/Release/Obj/blinky_pca10056/i2c_bitbang_samd21.o
+ .group         0x0000000000000000        0xc Output/Release/Obj/blinky_pca10056/i2c_bitbang_samd21.o
+ .group         0x0000000000000000        0xc Output/Release/Obj/blinky_pca10056/i2c_bitbang_samd21.o
+ .group         0x0000000000000000        0xc Output/Release/Obj/blinky_pca10056/i2c_bitbang_samd21.o
+ .group         0x0000000000000000        0xc Output/Release/Obj/blinky_pca10056/i2c_bitbang_samd21.o
+ .group         0x0000000000000000        0xc Output/Release/Obj/blinky_pca10056/i2c_bitbang_samd21.o
+ .group         0x0000000000000000        0xc Output/Release/Obj/blinky_pca10056/i2c_bitbang_samd21.o
+ .group         0x0000000000000000        0xc Output/Release/Obj/blinky_pca10056/i2c_bitbang_samd21.o
+ .group         0x0000000000000000        0xc Output/Release/Obj/blinky_pca10056/i2c_bitbang_samd21.o
+ .group         0x0000000000000000        0xc Output/Release/Obj/blinky_pca10056/i2c_bitbang_samd21.o
+ .group         0x0000000000000000        0xc Output/Release/Obj/blinky_pca10056/i2c_bitbang_samd21.o
+ .group         0x0000000000000000        0xc Output/Release/Obj/blinky_pca10056/i2c_bitbang_samd21.o
+ .group         0x0000000000000000        0xc Output/Release/Obj/blinky_pca10056/i2c_bitbang_samd21.o
+ .group         0x0000000000000000        0xc Output/Release/Obj/blinky_pca10056/i2c_bitbang_samd21.o
+ .group         0x0000000000000000        0xc Output/Release/Obj/blinky_pca10056/i2c_bitbang_samd21.o
+ .group         0x0000000000000000        0xc Output/Release/Obj/blinky_pca10056/i2c_bitbang_samd21.o
+ .group         0x0000000000000000        0xc Output/Release/Obj/blinky_pca10056/i2c_bitbang_samd21.o
+ .group         0x0000000000000000        0xc Output/Release/Obj/blinky_pca10056/i2c_bitbang_samd21.o
+ .group         0x0000000000000000        0xc Output/Release/Obj/blinky_pca10056/i2c_bitbang_samd21.o
+ .group         0x0000000000000000        0xc Output/Release/Obj/blinky_pca10056/i2c_bitbang_samd21.o
+ .text          0x0000000000000000        0x0 Output/Release/Obj/blinky_pca10056/i2c_bitbang_samd21.o
+ .data          0x0000000000000000        0x0 Output/Release/Obj/blinky_pca10056/i2c_bitbang_samd21.o
+ .bss           0x0000000000000000        0x0 Output/Release/Obj/blinky_pca10056/i2c_bitbang_samd21.o
+ .text.nrf_gpio_cfg_output
+                0x0000000000000000       0x20 Output/Release/Obj/blinky_pca10056/i2c_bitbang_samd21.o
+ .text.nrfx_coredep_delay_us.part.0
+                0x0000000000000000       0x10 Output/Release/Obj/blinky_pca10056/i2c_bitbang_samd21.o
+ .text.nrf_gpio_cfg_input.constprop.0
+                0x0000000000000000       0x20 Output/Release/Obj/blinky_pca10056/i2c_bitbang_samd21.o
+ .text.nrf_gpio_pin_clear
+                0x0000000000000000       0x20 Output/Release/Obj/blinky_pca10056/i2c_bitbang_samd21.o
+ .text.nrf_gpio_pin_set
+                0x0000000000000000       0x20 Output/Release/Obj/blinky_pca10056/i2c_bitbang_samd21.o
+ .text.nrf_gpio_pin_read
+                0x0000000000000000       0x20 Output/Release/Obj/blinky_pca10056/i2c_bitbang_samd21.o
+ .text.i2c_discover_buses
+                0x0000000000000000        0x6 Output/Release/Obj/blinky_pca10056/i2c_bitbang_samd21.o
+ .text.i2c_set_pin
+                0x0000000000000000       0x14 Output/Release/Obj/blinky_pca10056/i2c_bitbang_samd21.o
+ .text.i2c_enable
+                0x0000000000000000       0x2c Output/Release/Obj/blinky_pca10056/i2c_bitbang_samd21.o
+ .text.i2c_disable
+                0x0000000000000000       0x20 Output/Release/Obj/blinky_pca10056/i2c_bitbang_samd21.o
+ .text.i2c_send_start
+                0x0000000000000000       0x38 Output/Release/Obj/blinky_pca10056/i2c_bitbang_samd21.o
+ .text.i2c_send_ack
+                0x0000000000000000       0x54 Output/Release/Obj/blinky_pca10056/i2c_bitbang_samd21.o
+ .text.i2c_send_stop
+                0x0000000000000000       0x38 Output/Release/Obj/blinky_pca10056/i2c_bitbang_samd21.o
+ .text.i2c_send_wake_token
+                0x0000000000000000       0x20 Output/Release/Obj/blinky_pca10056/i2c_bitbang_samd21.o
+ .text.i2c_send_byte
+                0x0000000000000000       0xa8 Output/Release/Obj/blinky_pca10056/i2c_bitbang_samd21.o
+ .text.i2c_send_bytes
+                0x0000000000000000       0x24 Output/Release/Obj/blinky_pca10056/i2c_bitbang_samd21.o
+ .text.i2c_receive_one_byte
+                0x0000000000000000       0x68 Output/Release/Obj/blinky_pca10056/i2c_bitbang_samd21.o
+ .text.i2c_receive_byte
+                0x0000000000000000        0xe Output/Release/Obj/blinky_pca10056/i2c_bitbang_samd21.o
+ .text.i2c_receive_bytes
+                0x0000000000000000       0x32 Output/Release/Obj/blinky_pca10056/i2c_bitbang_samd21.o
+ .bss.pin_scl   0x0000000000000000        0x4 Output/Release/Obj/blinky_pca10056/i2c_bitbang_samd21.o
+ .bss.pin_sda   0x0000000000000000        0x4 Output/Release/Obj/blinky_pca10056/i2c_bitbang_samd21.o
+ .rodata.delay_machine_code.0
+                0x0000000000000000        0x6 Output/Release/Obj/blinky_pca10056/i2c_bitbang_samd21.o
+ .debug_frame   0x0000000000000000      0x234 Output/Release/Obj/blinky_pca10056/i2c_bitbang_samd21.o
+ .debug_info    0x0000000000000000     0x15f4 Output/Release/Obj/blinky_pca10056/i2c_bitbang_samd21.o
+ .debug_abbrev  0x0000000000000000      0x416 Output/Release/Obj/blinky_pca10056/i2c_bitbang_samd21.o
+ .debug_loc     0x0000000000000000      0xb40 Output/Release/Obj/blinky_pca10056/i2c_bitbang_samd21.o
+ .debug_pubnames
+                0x0000000000000000      0x765 Output/Release/Obj/blinky_pca10056/i2c_bitbang_samd21.o
+ .debug_pubtypes
+                0x0000000000000000      0x187 Output/Release/Obj/blinky_pca10056/i2c_bitbang_samd21.o
+ .debug_aranges
+                0x0000000000000000       0xb0 Output/Release/Obj/blinky_pca10056/i2c_bitbang_samd21.o
+ .debug_ranges  0x0000000000000000      0x1f0 Output/Release/Obj/blinky_pca10056/i2c_bitbang_samd21.o
+ .debug_macro   0x0000000000000000      0x258 Output/Release/Obj/blinky_pca10056/i2c_bitbang_samd21.o
+ .debug_macro   0x0000000000000000      0xac6 Output/Release/Obj/blinky_pca10056/i2c_bitbang_samd21.o
+ .debug_macro   0x0000000000000000      0x1a3 Output/Release/Obj/blinky_pca10056/i2c_bitbang_samd21.o
+ .debug_macro   0x0000000000000000      0x6ac Output/Release/Obj/blinky_pca10056/i2c_bitbang_samd21.o
+ .debug_macro   0x0000000000000000       0x89 Output/Release/Obj/blinky_pca10056/i2c_bitbang_samd21.o
+ .debug_macro   0x0000000000000000       0x1c Output/Release/Obj/blinky_pca10056/i2c_bitbang_samd21.o
+ .debug_macro   0x0000000000000000       0x22 Output/Release/Obj/blinky_pca10056/i2c_bitbang_samd21.o
+ .debug_macro   0x0000000000000000       0x22 Output/Release/Obj/blinky_pca10056/i2c_bitbang_samd21.o
+ .debug_macro   0x0000000000000000       0x3b Output/Release/Obj/blinky_pca10056/i2c_bitbang_samd21.o
+ .debug_macro   0x0000000000000000       0x1c Output/Release/Obj/blinky_pca10056/i2c_bitbang_samd21.o
+ .debug_macro   0x0000000000000000       0x22 Output/Release/Obj/blinky_pca10056/i2c_bitbang_samd21.o
+ .debug_macro   0x0000000000000000       0xfb Output/Release/Obj/blinky_pca10056/i2c_bitbang_samd21.o
+ .debug_macro   0x0000000000000000     0x1011 Output/Release/Obj/blinky_pca10056/i2c_bitbang_samd21.o
+ .debug_macro   0x0000000000000000      0x11f Output/Release/Obj/blinky_pca10056/i2c_bitbang_samd21.o
+ .debug_macro   0x0000000000000000      0x402 Output/Release/Obj/blinky_pca10056/i2c_bitbang_samd21.o
+ .debug_macro   0x0000000000000000    0x10cfd Output/Release/Obj/blinky_pca10056/i2c_bitbang_samd21.o
+ .debug_macro   0x0000000000000000      0xa65 Output/Release/Obj/blinky_pca10056/i2c_bitbang_samd21.o
+ .debug_macro   0x0000000000000000       0x96 Output/Release/Obj/blinky_pca10056/i2c_bitbang_samd21.o
+ .debug_macro   0x0000000000000000       0x40 Output/Release/Obj/blinky_pca10056/i2c_bitbang_samd21.o
+ .debug_macro   0x0000000000000000      0x462 Output/Release/Obj/blinky_pca10056/i2c_bitbang_samd21.o
+ .debug_macro   0x0000000000000000       0x59 Output/Release/Obj/blinky_pca10056/i2c_bitbang_samd21.o
+ .debug_macro   0x0000000000000000       0x1f Output/Release/Obj/blinky_pca10056/i2c_bitbang_samd21.o
+ .debug_macro   0x0000000000000000      0x154 Output/Release/Obj/blinky_pca10056/i2c_bitbang_samd21.o
+ .debug_macro   0x0000000000000000       0x16 Output/Release/Obj/blinky_pca10056/i2c_bitbang_samd21.o
+ .debug_macro   0x0000000000000000      0x16d Output/Release/Obj/blinky_pca10056/i2c_bitbang_samd21.o
+ .debug_macro   0x0000000000000000      0x7ca Output/Release/Obj/blinky_pca10056/i2c_bitbang_samd21.o
+ .debug_macro   0x0000000000000000       0x3f Output/Release/Obj/blinky_pca10056/i2c_bitbang_samd21.o
+ .debug_macro   0x0000000000000000       0x72 Output/Release/Obj/blinky_pca10056/i2c_bitbang_samd21.o
+ .debug_macro   0x0000000000000000       0x8e Output/Release/Obj/blinky_pca10056/i2c_bitbang_samd21.o
+ .debug_macro   0x0000000000000000       0xad Output/Release/Obj/blinky_pca10056/i2c_bitbang_samd21.o
+ .debug_macro   0x0000000000000000       0x49 Output/Release/Obj/blinky_pca10056/i2c_bitbang_samd21.o
+ .debug_macro   0x0000000000000000       0x8c Output/Release/Obj/blinky_pca10056/i2c_bitbang_samd21.o
+ .debug_macro   0x0000000000000000       0x19 Output/Release/Obj/blinky_pca10056/i2c_bitbang_samd21.o
+ .debug_macro   0x0000000000000000       0x1d Output/Release/Obj/blinky_pca10056/i2c_bitbang_samd21.o
+ .debug_macro   0x0000000000000000       0x35 Output/Release/Obj/blinky_pca10056/i2c_bitbang_samd21.o
+ .debug_macro   0x0000000000000000       0x7b Output/Release/Obj/blinky_pca10056/i2c_bitbang_samd21.o
+ .debug_macro   0x0000000000000000       0x64 Output/Release/Obj/blinky_pca10056/i2c_bitbang_samd21.o
+ .debug_macro   0x0000000000000000       0x20 Output/Release/Obj/blinky_pca10056/i2c_bitbang_samd21.o
+ .debug_macro   0x0000000000000000       0x22 Output/Release/Obj/blinky_pca10056/i2c_bitbang_samd21.o
+ .debug_macro   0x0000000000000000      0x208 Output/Release/Obj/blinky_pca10056/i2c_bitbang_samd21.o
+ .debug_macro   0x0000000000000000      0x16d Output/Release/Obj/blinky_pca10056/i2c_bitbang_samd21.o
+ .debug_macro   0x0000000000000000       0x82 Output/Release/Obj/blinky_pca10056/i2c_bitbang_samd21.o
+ .debug_line    0x0000000000000000      0xfd9 Output/Release/Obj/blinky_pca10056/i2c_bitbang_samd21.o
+ .debug_str     0x0000000000000000    0x8410e Output/Release/Obj/blinky_pca10056/i2c_bitbang_samd21.o
+ .comment       0x0000000000000000       0x26 Output/Release/Obj/blinky_pca10056/i2c_bitbang_samd21.o
+ .ARM.attributes
+                0x0000000000000000       0x39 Output/Release/Obj/blinky_pca10056/i2c_bitbang_samd21.o
  .group         0x0000000000000000        0xc Output/Release/Obj/blinky_pca10056/atca_basic.o
  .group         0x0000000000000000        0xc Output/Release/Obj/blinky_pca10056/atca_basic.o
  .group         0x0000000000000000        0xc Output/Release/Obj/blinky_pca10056/atca_basic.o
@@ -5979,6 +6187,7 @@ LOAD Output/Release/Obj/blinky_pca10056/atca_iface.o
 LOAD Output/Release/Obj/blinky_pca10056/hal_timer_start.o
 LOAD Output/Release/Obj/blinky_pca10056/atca_hal.o
 LOAD Output/Release/Obj/blinky_pca10056/hal_i2c_bitbang.o
+LOAD Output/Release/Obj/blinky_pca10056/i2c_bitbang_samd21.o
 LOAD Output/Release/Obj/blinky_pca10056/atca_basic.o
 LOAD Output/Release/Obj/blinky_pca10056/atca_basic_checkmac.o
 LOAD Output/Release/Obj/blinky_pca10056/atca_basic_counter.o

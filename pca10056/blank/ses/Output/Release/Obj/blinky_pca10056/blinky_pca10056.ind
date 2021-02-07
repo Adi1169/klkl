@@ -31,6 +31,7 @@
 "Output/Release/Obj/blinky_pca10056/hal_timer_start.o"
 "Output/Release/Obj/blinky_pca10056/atca_hal.o"
 "Output/Release/Obj/blinky_pca10056/hal_i2c_bitbang.o"
+"Output/Release/Obj/blinky_pca10056/i2c_bitbang_samd21.o"
 "Output/Release/Obj/blinky_pca10056/atca_basic.o"
 "Output/Release/Obj/blinky_pca10056/atca_basic_checkmac.o"
 "Output/Release/Obj/blinky_pca10056/atca_basic_counter.o"

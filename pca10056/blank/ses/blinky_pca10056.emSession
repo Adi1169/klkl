@@ -1,7 +1,9 @@
 <!DOCTYPE CrossStudio_Session_File>
 <session>
  <Bookmarks/>
- <Breakpoints groups="Breakpoints" active_group="Breakpoints"/>
+ <Breakpoints groups="Breakpoints" active_group="Breakpoints">
+  <BreakpointListItem trigger="" line="37" counter="0" hardwareBreakpoint="" isFunctionBreakpoint="false" action="" expression="" group="Breakpoints" type="Breakpoint" state="2" filename="../../../secure_boot_memory.c" useHWbreakpoint="false"/>
+ </Breakpoints>
  <ExecutionProfileWindow/>
  <FrameBufferWindow>
   <FrameBufferWindow bufferHeight="-1" addressSpace="" addressText="" bufferWidth="-1"/>
@@ -14,6 +16,9 @@
   <ProjectSessionItem path="blinky_pca10056"/>
   <ProjectSessionItem path="blinky_pca10056;blinky_pca10056"/>
   <ProjectSessionItem path="blinky_pca10056;blinky_pca10056;Application"/>
+  <ProjectSessionItem path="blinky_pca10056;blinky_pca10056;Board Definition"/>
+  <ProjectSessionItem path="blinky_pca10056;blinky_pca10056;cryptoauthlib"/>
+  <ProjectSessionItem path="blinky_pca10056;blinky_pca10056;cryptoauthlib;hal"/>
  </Project>
  <Register1/>
  <Register2/>
@@ -38,16 +43,14 @@
   <Watches active="0" update="Never"/>
  </Watch4>
  <Files>
-  <SessionOpenFile windowGroup="DockEditLeft" x="16" y="54" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="../../../main.c" selected="0" top="47" codecName="UTF-8"/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="0" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="../cryptoauthlib/lib/crypto/atca_crypto_sw_sha2.c" selected="0" top="0" codecName="UTF-8"/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="72" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="../cryptoauthlib/lib/hal/hal_timer_start.c" selected="0" top="51" codecName="UTF-8"/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="63" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="../../../../../../components/libraries/delay/nrf_delay.h" selected="0" top="46" codecName="UTF-8"/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="16" y="31" useTextEdit="1" openedFrom="C:/Users/akuan/OneDrive/Desktop/work/DeviceDownload/nRF5SDK1702d674dde/nRF5_SDK_17.0.2_d674dde/examples/peripheral/blinky/main.c" useBinaryEdit="0" left="0" path="../cryptoauthlib/app/secure_boot/secure_boot.c" selected="0" top="19" codecName="UTF-8"/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="0" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="../config/sdk_config.h" selected="0" top="0" codecName="UTF-8"/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="50" useTextEdit="1" openedFrom="F:/DeviceDownload/nRF5SDK1702d674dde/nRF5_SDK_17.0.2_d674dde/examples/peripheral/blinky/pca10056/blank/cryptoauthlib/app/secure_boot/secure_boot.c" useBinaryEdit="0" left="0" path="../cryptoauthlib/app/secure_boot/secure_boot.h" selected="0" top="41" codecName="Default"/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="28" y="203" useTextEdit="1" openedFrom="C:/Users/akuan/OneDrive/Desktop/work/DeviceDownload/nRF5SDK1702d674dde/nRF5_SDK_17.0.2_d674dde/examples/peripheral/blinky/pca10056/blank/cryptoauthlib/app/secure_boot/secure_boot.c" useBinaryEdit="0" left="0" path="../cryptoauthlib/lib/basic/atca_basic.h" selected="1" top="0" codecName="Default"/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="0" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="../cryptoauthlib/lib/basic/atca_basic.c" selected="0" top="111" codecName="Default"/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="55" useTextEdit="1" openedFrom="C:/Users/akuan/OneDrive/Desktop/work/DeviceDownload/nRF5SDK1702d674dde/nRF5_SDK_17.0.2_d674dde/examples/peripheral/blinky/pca10056/blank/cryptoauthlib/lib/basic/atca_basic.h" useBinaryEdit="0" left="0" path="../cryptoauthlib/lib/crypto/atca_crypto_sw_sha2.h" selected="0" top="42" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="42" y="687" useTextEdit="1" openedFrom="C:/Users/akuan/OneDrive/Desktop/work/DeviceDownload/nRF5SDK1702d674dde/nRF5_SDK_17.0.2_d674dde/examples/peripheral/blinky/pca10056/blank/cryptoauthlib/lib/hal/i2c_bitbang_samd21.h" useBinaryEdit="0" left="0" path="../../../../../../modules/nrfx/hal/nrf_gpio.h" selected="0" top="682" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="14" y="127" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="../cryptoauthlib/lib/hal/i2c_bitbang_samd21.c" selected="0" top="114" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="47" y="63" useTextEdit="1" openedFrom="C:/Users/akuan/OneDrive/Desktop/work/DeviceDownload/nRF5SDK1702d674dde/nRF5_SDK_17.0.2_d674dde/examples/peripheral/blinky/pca10056/blank/cryptoauthlib/lib/hal/i2c_bitbang_samd21.c" useBinaryEdit="0" left="0" path="../cryptoauthlib/lib/hal/i2c_bitbang_samd21.h" selected="1" top="52" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="62" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="../../../main.c" selected="0" top="51" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="26" y="181" useTextEdit="1" openedFrom="C:/Users/akuan/OneDrive/Desktop/work/DeviceDownload/nRF5SDK1702d674dde/nRF5_SDK_17.0.2_d674dde/examples/peripheral/blinky/main.c" useBinaryEdit="0" left="0" path="../../../../../../components/boards/boards.c" selected="0" top="168" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="75" useTextEdit="1" openedFrom="C:/Users/akuan/OneDrive/Desktop/work/DeviceDownload/nRF5SDK1702d674dde/nRF5_SDK_17.0.2_d674dde/components/boards/boards.c" useBinaryEdit="0" left="0" path="../../../../../../components/boards/pca10056.h" selected="0" top="62" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="48" useTextEdit="1" openedFrom="C:/Users/akuan/OneDrive/Desktop/work/DeviceDownload/nRF5SDK1702d674dde/nRF5_SDK_17.0.2_d674dde/examples/peripheral/blinky/pca10056/blank/cryptoauthlib/lib/hal/i2c_bitbang_samd21.h" useBinaryEdit="0" left="0" path="../cryptoauthlib/lib/hal/hal_timer_start.c" selected="0" top="32" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="26" y="206" useTextEdit="1" openedFrom="C:/Users/akuan/OneDrive/Desktop/work/DeviceDownload/nRF5SDK1702d674dde/nRF5_SDK_17.0.2_d674dde/examples/peripheral/blinky/pca10056/blank/cryptoauthlib/lib/hal/i2c_bitbang_samd21.h" useBinaryEdit="0" left="0" path="../../../../../../components/toolchain/cmsis/include/cmsis_gcc.h" selected="0" top="571" codecName="Default"/>
  </Files>
- <ARMCrossStudioWindow activeProject="blinky_pca10056" fileDialogDefaultFilter="*.c;*.cpp;*.cxx;*.cc;*.h;*.hpp;*.hxx" autoConnectTarget="J-Link" buildConfiguration="Release" sessionSettings="" debugSearchFileMap="" fileDialogInitialDirectory="D:/DeviceDownload/nRF5SDK1702d674dde/nRF5_SDK_17.0.2_d674dde/examples/peripheral/blinky/pca10056/blank/cryptoauthlib/app/secure_boot" debugSearchPath="" autoConnectCapabilities="3199"/>
+ <ARMCrossStudioWindow activeProject="blinky_pca10056" fileDialogDefaultFilter="*.c;*.cpp;*.cxx;*.cc;*.h;*.hpp;*.hxx" autoConnectTarget="J-Link" buildConfiguration="Release" sessionSettings="" debugSearchFileMap="" fileDialogInitialDirectory="C:/Users/akuan/OneDrive/Desktop/work/DeviceDownload/nRF5SDK1702d674dde/nRF5_SDK_17.0.2_d674dde/examples/peripheral/blinky/pca10056/blank/cryptoauthlib/lib/hal" debugSearchPath="" autoConnectCapabilities="3199"/>
 </session>

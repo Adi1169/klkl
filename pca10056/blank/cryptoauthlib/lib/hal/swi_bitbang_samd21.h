@@ -29,7 +29,7 @@
 #define SWI_BITBANG_SAMD21_H_
 
 #include "atca_status.h"
-#include <delay.h>
+#include "nrf_delay.h"
 
 
 #define MAX_SWI_BUSES   36      //!< SAMD21 xplainned pro has 36 free GPIO pins available

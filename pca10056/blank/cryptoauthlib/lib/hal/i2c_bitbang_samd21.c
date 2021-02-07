@@ -25,19 +25,21 @@
  * THIS SOFTWARE.
  */
 
-#include <asf.h>
 #include <stdint.h>
+#include "nrf_delay.h"
+#include "boards.h"
 #include "i2c_bitbang_samd21.h"
-#define DEFAULT_I2C_BUS 2
 
+#define DEFAULT_I2C_BUS 1
+#if 0
 // *INDENT-OFF* - Preserve alignment from the code formatter
 I2CBuses i2c_buses_default = {
     {EXT3_PIN_3, EXT3_PIN_9,  EXT3_PIN_I2C_SDA, EXT3_PIN_13, EXT2_PIN_3, EXT2_PIN_5, EXT2_PIN_7, EXT2_PIN_9,  EXT2_PIN_13, EXT2_PIN_15, EXT2_PIN_17, EXT1_PIN_3, EXT1_PIN_5, EXT1_PIN_7, EXT1_PIN_9,  EXT1_PIN_13, EXT1_PIN_15, EXT1_PIN_17},
     {EXT3_PIN_7, EXT3_PIN_10, EXT3_PIN_I2C_SCL, EXT3_PIN_14, EXT2_PIN_4, EXT2_PIN_6, EXT2_PIN_8, EXT2_PIN_10, EXT2_PIN_14, EXT2_PIN_16, EXT2_PIN_18, EXT1_PIN_4, EXT1_PIN_6, EXT1_PIN_8, EXT1_PIN_10, EXT1_PIN_14, EXT1_PIN_16, EXT1_PIN_18}
 };
 // *INDENT-ON*
-
-uint8_t pin_sda, pin_scl;
+#endif
+uint32_t pin_sda, pin_scl;
 
 void i2c_discover_buses(int i2c_bitbang_buses[], int max_buses)
 {
@@ -46,7 +48,7 @@ void i2c_discover_buses(int i2c_bitbang_buses[], int max_buses)
 
 }
 
-void i2c_set_pin(uint8_t sda, uint8_t scl)
+void i2c_set_pin(uint32_t sda, uint32_t scl)
 {
     pin_sda = sda;
     pin_scl = scl;
@@ -113,7 +115,7 @@ void i2c_send_stop(void)
 void i2c_send_wake_token(void)
 {
     I2C_DATA_LOW();
-    delay_us(80);
+    nrf_delay_us(80);
     I2C_DATA_HIGH();
 }
 

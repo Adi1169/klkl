@@ -31,8 +31,7 @@
 #include "atca_device.h"
 #include "hal_i2c_bitbang.h"
 #include "atca_execution.h"
-
-#define MAX_I2C_BUSES   1
+#include "i2c_bitbang_samd21.h"
 /**
  * \defgroup hal_ Hardware abstraction layer (hal_)
  *
